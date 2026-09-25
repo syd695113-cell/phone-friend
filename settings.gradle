@@ -1,0 +1,2 @@
+rootProject.name = "PhoneFriend"
+include ':app'
