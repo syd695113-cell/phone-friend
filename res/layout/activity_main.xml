@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دوست من"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/apiKeyInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="کلید API آنتروپیک رو اینجا بذار" />
+
+    <EditText
+        android:id="@+id/wakeWordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="کلمهٔ فعال‌ساز (مثلاً: دوست من)"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="شروع گوش دادن"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="توقف"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="وضعیت: خاموش"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
